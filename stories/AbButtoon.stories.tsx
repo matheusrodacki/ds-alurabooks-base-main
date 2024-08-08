@@ -14,7 +14,10 @@ const Template: ComponentStory<typeof AbButton> = (args) => (
 );
 
 export const Primary = Template.bind({});
-Primary.args = { text: 'Primary Button', type: 'primary' } as AbButtonProps;
+Primary.args = { 
+  text: 'Primary Button', 
+  type: 'primary' 
+} as AbButtonProps;
 
 export const Secondary = Template.bind({});
 Secondary.args = {
